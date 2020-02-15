@@ -1,0 +1,64 @@
+import { AfterViewInit, ChangeDetectorRef, ElementRef, EventEmitter, QueryList, Renderer2 } from '@angular/core';
+import { Grid } from '../../models/Grid.model';
+import { NgxWidgetComponent } from '../widget/widget.component';
+import { GridRenderer } from '../../models/GridRenderer.model';
+import { Cell } from '../../models/Cell.model';
+import { WidgetConfig } from '../../models/WidgetConfig.model';
+import { Rectangle } from '../../models/Rectangle.model';
+import { WidgetPositionChange } from '../../models/widgetPositionChange.interface';
+export declare class NgxWidgetGridComponent implements AfterViewInit {
+    private el;
+    private _changeDetector;
+    private _renderer;
+    showGrid: boolean;
+    widgetPositionChange: EventEmitter<WidgetPositionChange>;
+    gridFull: EventEmitter<boolean>;
+    widgetComponents: QueryList<NgxWidgetComponent>;
+    grid: Grid;
+    gridRenderer: GridRenderer;
+    highlightedArea: Rectangle;
+    gridAlreadyFull: boolean;
+    _rows: number;
+    _columns: number;
+    _highlightNextPosition: boolean;
+    constructor(el: ElementRef, _changeDetector: ChangeDetectorRef, _renderer: Renderer2);
+    rows: number;
+    columns: number;
+    highlightNextPosition: boolean;
+    ngAfterViewInit(): void;
+    refreshWidgets(): void;
+    hasWidget(widget: NgxWidgetComponent): boolean;
+    addWidget(widget: NgxWidgetComponent, deferredRender?: boolean): void;
+    clearGrid(): void;
+    updateGridSize(): void;
+    updateRendering(): void;
+    getGridRectangle(): Rectangle;
+    rasterizeCoords(x: number, y: number): Cell;
+    updateWidget(widget: NgxWidgetComponent, swappingWidgets: boolean): void;
+    getWidgetPositionByWidgetId(widgetId: string): Rectangle;
+    getWidgetPosition(widget: NgxWidgetComponent): Rectangle;
+    getWidgetStyle(widget: NgxWidgetComponent): {
+        display: string;
+    } | {
+        top: string;
+        height: string;
+        left: string;
+        width: string;
+    };
+    isPointObstructed(i: number, j: number): boolean;
+    isAreaObstructed(area: Rectangle, options: {
+        excludedArea?: Rectangle;
+        fromBottom?: boolean;
+        fromRight?: boolean;
+    }): boolean;
+    areaObstructor(area: Rectangle): string;
+    highlightArea(area: Rectangle): void;
+    updateNextPositionHighlight(): void;
+    getNextPosition(): Rectangle;
+    getPositions(): WidgetConfig[];
+    resetHighlights(): void;
+    emitUpdatePosition(widget: WidgetConfig): void;
+    getWidgetIndex(widgetConfig: WidgetConfig): number;
+    getWidgetById(widgetId: string): NgxWidgetComponent;
+    assessAvailableGridSpace(): void;
+}

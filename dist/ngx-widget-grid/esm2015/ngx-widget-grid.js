@@ -1,0 +1,12 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/**
+ * Generated bundle index. Do not edit.
+ */
+export { NgxWidgetGridComponent, NgxGridOverlayComponent, NgxWidgetComponent, Cell, CellSize, Grid, GridRenderer, PathIterator, Rectangle, WidgetConfig, NgxWidgetGridModule } from './public_api';
+export { NgxWidgetMoverDirective as ɵa } from './lib/directives/widgetMover.directive';
+export { NgxWidgetResizerDirective as ɵb } from './lib/directives/widgetResizer.directive';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmd4LXdpZGdldC1ncmlkLmpzIiwic291cmNlUm9vdCI6Im5nOi8vbmd4LXdpZGdldC1ncmlkLyIsInNvdXJjZXMiOlsibmd4LXdpZGdldC1ncmlkLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFJQSxvTEFBYyxjQUFjLENBQUM7QUFFN0IsT0FBTyxFQUFDLHVCQUF1QixJQUFJLEVBQUUsRUFBQyxNQUFNLHdDQUF3QyxDQUFDO0FBQ3JGLE9BQU8sRUFBQyx5QkFBeUIsSUFBSSxFQUFFLEVBQUMsTUFBTSwwQ0FBMEMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qKlxuICogR2VuZXJhdGVkIGJ1bmRsZSBpbmRleC4gRG8gbm90IGVkaXQuXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9wdWJsaWNfYXBpJztcblxuZXhwb3J0IHtOZ3hXaWRnZXRNb3ZlckRpcmVjdGl2ZSBhcyDJtWF9IGZyb20gJy4vbGliL2RpcmVjdGl2ZXMvd2lkZ2V0TW92ZXIuZGlyZWN0aXZlJztcbmV4cG9ydCB7Tmd4V2lkZ2V0UmVzaXplckRpcmVjdGl2ZSBhcyDJtWJ9IGZyb20gJy4vbGliL2RpcmVjdGl2ZXMvd2lkZ2V0UmVzaXplci5kaXJlY3RpdmUnOyJdfQ==

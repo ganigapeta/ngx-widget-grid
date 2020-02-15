@@ -1,0 +1,20 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/*
+ * Public API Surface of ngx-widget-grid
+ */
+export { NgxWidgetGridComponent } from './lib/components/grid/grid.component';
+export { NgxGridOverlayComponent } from './lib/components/gridOverlay/gridOverlay.component';
+export { NgxWidgetComponent } from './lib/components/widget/widget.component';
+export { Cell } from './lib/models/Cell.model';
+export { CellSize } from './lib/models/CellSize.model';
+export { Grid } from './lib/models/Grid.model';
+export { GridRenderer } from './lib/models/GridRenderer.model';
+export { PathIterator } from './lib/models/PathIterator.model';
+export { Rectangle } from './lib/models/Rectangle.model';
+export { WidgetConfig } from './lib/models/WidgetConfig.model';
+export { NgxWidgetGridModule } from './lib/ngx-widget-grid.module';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljX2FwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL25neC13aWRnZXQtZ3JpZC8iLCJzb3VyY2VzIjpbInB1YmxpY19hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUlBLHVDQUFjLHNDQUFzQyxDQUFDO0FBQ3JELHdDQUFjLG9EQUFvRCxDQUFDO0FBQ25FLG1DQUFjLDBDQUEwQyxDQUFDO0FBQ3pELHFCQUFjLHlCQUF5QixDQUFDO0FBQ3hDLHlCQUFjLDZCQUE2QixDQUFDO0FBQzVDLHFCQUFjLHlCQUF5QixDQUFDO0FBQ3hDLDZCQUFjLGlDQUFpQyxDQUFDO0FBQ2hELDZCQUFjLGlDQUFpQyxDQUFDO0FBQ2hELDBCQUFjLDhCQUE4QixDQUFDO0FBQzdDLDZCQUFjLGlDQUFpQyxDQUFDO0FBRWhELG9DQUFjLDhCQUE4QixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcclxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIG5neC13aWRnZXQtZ3JpZFxyXG4gKi9cclxuXHJcbmV4cG9ydCAqIGZyb20gJy4vbGliL2NvbXBvbmVudHMvZ3JpZC9ncmlkLmNvbXBvbmVudCc7XHJcbmV4cG9ydCAqIGZyb20gJy4vbGliL2NvbXBvbmVudHMvZ3JpZE92ZXJsYXkvZ3JpZE92ZXJsYXkuY29tcG9uZW50JztcclxuZXhwb3J0ICogZnJvbSAnLi9saWIvY29tcG9uZW50cy93aWRnZXQvd2lkZ2V0LmNvbXBvbmVudCc7XHJcbmV4cG9ydCAqIGZyb20gJy4vbGliL21vZGVscy9DZWxsLm1vZGVsJztcclxuZXhwb3J0ICogZnJvbSAnLi9saWIvbW9kZWxzL0NlbGxTaXplLm1vZGVsJztcclxuZXhwb3J0ICogZnJvbSAnLi9saWIvbW9kZWxzL0dyaWQubW9kZWwnO1xyXG5leHBvcnQgKiBmcm9tICcuL2xpYi9tb2RlbHMvR3JpZFJlbmRlcmVyLm1vZGVsJztcclxuZXhwb3J0ICogZnJvbSAnLi9saWIvbW9kZWxzL1BhdGhJdGVyYXRvci5tb2RlbCc7XHJcbmV4cG9ydCAqIGZyb20gJy4vbGliL21vZGVscy9SZWN0YW5nbGUubW9kZWwnO1xyXG5leHBvcnQgKiBmcm9tICcuL2xpYi9tb2RlbHMvV2lkZ2V0Q29uZmlnLm1vZGVsJztcclxuZXhwb3J0ICogZnJvbSAnLi9saWIvbW9kZWxzL3dpZGdldFBvc2l0aW9uQ2hhbmdlLmludGVyZmFjZSc7XHJcbmV4cG9ydCAqIGZyb20gJy4vbGliL25neC13aWRnZXQtZ3JpZC5tb2R1bGUnO1xyXG4iXX0=
